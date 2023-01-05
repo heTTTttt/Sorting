@@ -6,7 +6,7 @@ public class ShakerSorting2 {
                 swapped = false;
                 for (int i = 0; i <= nums.length - 2; i++) {
                     if (nums[i] > nums[i + 1]) {
-                        //test if two elements are in the wrong order
+                        //перевірити, чи два елементи знаходяться в неправильному порядку
                         int temp = nums[i];
                         nums[i] = nums[i + 1];
                         nums[i + 1] = temp;
